@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6A8E7992B5F0F49005F6AD0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D6A8E7982B5F0F49005F6AD0 /* .gitignore */; };
 		D6B09C1F2B504AEB00B1BF74 /* SkyblockCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C1E2B504AEB00B1BF74 /* SkyblockCompanionApp.swift */; };
 		D6B09C212B504AEB00B1BF74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C202B504AEB00B1BF74 /* ContentView.swift */; };
 		D6B09C232B504AED00B1BF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B09C222B504AED00B1BF74 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		D6B09C302B504AED00B1BF74 /* SkyblockCompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C2F2B504AED00B1BF74 /* SkyblockCompanionTests.swift */; };
 		D6B09C3A2B504AED00B1BF74 /* SkyblockCompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C392B504AED00B1BF74 /* SkyblockCompanionUITests.swift */; };
 		D6B09C3C2B504AED00B1BF74 /* SkyblockCompanionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C3B2B504AED00B1BF74 /* SkyblockCompanionUITestsLaunchTests.swift */; };
+		D6B09C502B55ED4000B1BF74 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09C4F2B55ED4000B1BF74 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6A8E7982B5F0F49005F6AD0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D6B09C1B2B504AEB00B1BF74 /* SkyblockCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyblockCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B09C1E2B504AEB00B1BF74 /* SkyblockCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyblockCompanionApp.swift; sourceTree = "<group>"; };
-		D6B09C202B504AEB00B1BF74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B09C202B504AEB00B1BF74 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		D6B09C222B504AED00B1BF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B09C252B504AED00B1BF74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6B09C2B2B504AED00B1BF74 /* SkyblockCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyblockCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,7 @@
 		D6B09C352B504AED00B1BF74 /* SkyblockCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyblockCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B09C392B504AED00B1BF74 /* SkyblockCompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyblockCompanionUITests.swift; sourceTree = "<group>"; };
 		D6B09C3B2B504AED00B1BF74 /* SkyblockCompanionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyblockCompanionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6B09C4F2B55ED4000B1BF74 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				D6B09C1E2B504AEB00B1BF74 /* SkyblockCompanionApp.swift */,
 				D6B09C202B504AEB00B1BF74 /* ContentView.swift */,
+				D6A8E7982B5F0F49005F6AD0 /* .gitignore */,
+				D6B09C4F2B55ED4000B1BF74 /* API.swift */,
 				D6B09C222B504AED00B1BF74 /* Assets.xcassets */,
 				D6B09C242B504AED00B1BF74 /* Preview Content */,
 			);
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6B09C262B504AED00B1BF74 /* Preview Assets.xcassets in Resources */,
+				D6A8E7992B5F0F49005F6AD0 /* .gitignore in Resources */,
 				D6B09C232B504AED00B1BF74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			files = (
 				D6B09C212B504AEB00B1BF74 /* ContentView.swift in Sources */,
 				D6B09C1F2B504AEB00B1BF74 /* SkyblockCompanionApp.swift in Sources */,
+				D6B09C502B55ED4000B1BF74 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,13 +430,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkyblockCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = YSSVL8WRZV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,13 +459,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkyblockCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = YSSVL8WRZV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
